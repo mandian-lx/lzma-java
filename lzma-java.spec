@@ -44,10 +44,10 @@ This package contains javadoc for %{name}.
 
 %files -f .mfiles
 %doc README.md
-%license LICENSE
+%doc LICENSE
 
 %files javadoc -f .mfiles-javadoc
-%license LICENSE
+%doc LICENSE
 
 %changelog
 * Wed Jul 26 2017 Fedora Release Engineering <releng@fedoraproject.org> - 1.3-3

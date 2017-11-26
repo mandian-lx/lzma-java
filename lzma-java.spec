@@ -1,7 +1,10 @@
+%{?_javapackages_macros:%_javapackages_macros}
+
 Name:          lzma-java
 Version:       1.3
-Release:       3%{?dist}
+Release:       3.1
 Summary:       LZMA library for Java
+Group:         Development/Java
 # Source files without license headers https://github.com/jponge/lzma-java/issues/13
 # Public Domain: ./src/main/java/lzma/sdk/*  ./src/test/java/lzma/*
 License:       ASL 2.0 and Public Domain
